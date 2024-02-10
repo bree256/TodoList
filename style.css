@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3ccf3;
+}
+main {
+  width: 350px;
+  height: 700px;
+  background-color: #ffffff;
+  margin-left: 400px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 4px -4px 19px -3px rgba(115, 115, 102, 0.75);
+  -webkit-box-shadow: 4px -4px 19px -3px rgba(115, 115, 102, 0.75);
+  -moz-box-shadow: 4px -4px 19px -3px rgba(115, 115, 102, 0.75);
+}
+.top {
+  display: flex;
+}
+#span1 {
+  margin-top: 18px;
+  color: #e9a8f2;
+}
+h3 {
+  margin-left: 5px;
+  color: #f3ccf3;
+}
+.today {
+  display: flex;
+  padding: 5px;
+}
+.skill {
+  background-color: #f3ccf3;
+  color: white;
+  margin-left: 11px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.html {
+  width: 33%;
+  height: 20px;
+  margin-bottom: 15px;
+}
+#span2 {
+  margin-left: 180px;
+  margin-top: 14px;
+  color: #f3ccf3;
+  font-size: xxx-large;
+  font-weight: 300;
+}
+div#first {
+  display: flex;
+  justify-content: space-around;
+}
+div#second {
+  display: flex;
+  justify-content: space-around;
+}
+p {
+  height: 40px;
+  width: 113px;
+  text-align: center;
+  padding: 10px;
+}
+p.daily {
+  background-color: #eff396;
+  border-radius: 25px;
+}
+p.weekly {
+  background-color: red;
+  border-radius: 25px;
+}
+p.monthly {
+  background-color: #65b741;
+  border-radius: 25px;
+}
+p.ocassional {
+  background-color: #f3ccf3;
+  border-radius: 25px;
+}
+.todo {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+h4 {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+hr {
+  width: 330px;
+}
+.checkbox {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #65b741;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+form {
+  font-weight: 100;
+}
+label,
+input {
+  display: block;
+}
+
+label {
+  margin-bottom: 20px;
+  display: flex;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    margin-left: 100px;
+  }
+}

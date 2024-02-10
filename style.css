@@ -8,7 +8,7 @@ main {
   width: 350px;
   height: 700px;
   background-color: #ffffff;
-  margin-left: 400px;
+  margin-left: 500px;
   margin-top: 20px;
   font-family: "Roboto", sans-serif;
   box-shadow: 4px -4px 19px -3px rgba(115, 115, 102, 0.75);
@@ -53,11 +53,11 @@ h3 {
 }
 div#first {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 div#second {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 p {
   height: 40px;
@@ -68,18 +68,22 @@ p {
 p.daily {
   background-color: #eff396;
   border-radius: 25px;
+  margin-left: 20px;
 }
 p.weekly {
   background-color: red;
   border-radius: 25px;
+  margin-left: 15px;
 }
 p.monthly {
   background-color: #65b741;
   border-radius: 25px;
+  margin-left: 20px;
 }
 p.ocassional {
   background-color: #f3ccf3;
   border-radius: 25px;
+  margin-left: 15px;
 }
 .todo {
   margin-left: 20px;

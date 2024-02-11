@@ -3,44 +3,14 @@ class TodoListItem extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
-    this.shadowRoot.innerHTML = `<style>todo-list {
-        display: block;
-        border: 2px solid #ccc;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: #f9f9f9;
-        margin-bottom: 20px;
-      }
-      
-      /* Style the todo list items as list items */
-      todo-list-item {
-        display: list-item;
-        margin-bottom: 10px;
-        list-style-type: none; /* Remove default bullet points */
-      }
-      
-      /* Style the label containing the checkbox and text */
-      todo-list-item label {
-        display: flex;
-        align-items: center;
-      }
-      
-      /* Style the checkbox */
-      todo-list-item input[type="checkbox"] {
-        margin-right: 10px;
-      }
-      
-      /* Style the todo text */
-      todo-list-item span {
-        font-size: 16px;
-      }
-     </style>      
+    this.shadowRoot.innerHTML = `
         <label>
           <input type="checkbox">
           <span><slot></slot></span>
         </label>
       `;
     this.checkbox = this.shadowRoot.querySelector('input[type="checkbox"]');
+    this.shadowRoot.adoptedStyleSheets = [styles];
   }
 
   connectedCallback() {

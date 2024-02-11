@@ -98,38 +98,19 @@ p.ocassional {
 h4 {
   margin-left: 85px;
   margin-top: 5px;
+  /* color: #f3ccf3; */
+}
+h5 {
+  color: #f3ccf3;
+  margin-left: 120px;
+  margin-top: -9px;
+  font-size: medium;
 }
 hr {
   width: 300px;
-}
-.checkbox {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  /* background-color: #65b741; */
-  background-color: white;
-  border-radius: 50%;
-  vertical-align: middle;
-  border: 1px solid #ddd;
-  appearance: none;
-  -webkit-appearance: none;
-  outline: none;
-  cursor: pointer;
-  margin-top: -6px;
-  margin-right: 10px;
-}
-form {
-  font-weight: 100;
-}
-label,
-input {
-  display: block;
+  margin-top: 20px;
 }
 
-label {
-  margin-bottom: 20px;
-  display: flex;
-}
 @media only screen and (max-width: 768px) {
   main {
     margin-left: 100px;

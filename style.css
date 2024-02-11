@@ -17,10 +17,15 @@ main {
 }
 .top {
   display: flex;
+  margin-left: 20px;
 }
 #span1 {
   margin-top: 18px;
   color: #e9a8f2;
+}
+h1 {
+  margin-left: 12px;
+  margin-top: -5px;
 }
 h3 {
   margin-left: 5px;
@@ -43,10 +48,11 @@ h3 {
   width: 33%;
   height: 20px;
   margin-bottom: 15px;
+  margin-top: -12px;
 }
 #span2 {
   margin-left: 180px;
-  margin-top: 14px;
+  margin-top: -7px;
   color: #f3ccf3;
   font-size: xxx-large;
   font-weight: 300;
@@ -90,17 +96,17 @@ p.ocassional {
   margin-top: 10px;
 }
 h4 {
-  margin-left: 20px;
+  margin-left: 85px;
   margin-top: 5px;
 }
 hr {
-  width: 330px;
+  width: 300px;
 }
 .checkbox {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #65b741;
+  /* background-color: #65b741; */
   background-color: white;
   border-radius: 50%;
   vertical-align: middle;

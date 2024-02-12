@@ -32,6 +32,7 @@ class TodoList extends HTMLElement {
         <div id="todoList"></div>
       `;
     this.container = this.shadowRoot.getElementById("todoList");
+    this.progressText = document.querySelector(".html + h5");
   }
 
   addTodoItem(text, checked = false) {
@@ -42,6 +43,21 @@ class TodoList extends HTMLElement {
     if (checked) {
       todoItem.setAttribute("checked", ""); // Setting custom attribute 'checked'
     }
+    // Update progress bar
+    this.updateProgressBar();
+  }
+
+  updateProgressBar() {
+    const totalItems = this.container.children.length;
+    const completedItems = this.container.querySelectorAll(
+      "todo-list-item[checked]"
+    ).length;
+    const completionPercentage = (completedItems / totalItems) * 100;
+    const progressBar = document.querySelector(".html");
+    progressBar.style.width = `${completionPercentage}%`;
+    this.progressText.textContent = `${Math.round(
+      completionPercentage
+    )}% complete`;
   }
 }
 

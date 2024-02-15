@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f3ccf3;
+  background-color: #e4e4f5;
 }
 main {
   width: 350px;
@@ -21,22 +21,24 @@ main {
 }
 #span1 {
   margin-top: 18px;
-  color: #e9a8f2;
+  color: #b3b3ef;
 }
 h1 {
   margin-left: 12px;
   margin-top: -5px;
+  color: #a8a8a8;
+  font-weight: 300;
 }
 h3 {
   margin-left: 5px;
-  color: #f3ccf3;
+  color: #b3b3ef;
 }
 .today {
   display: flex;
   padding: 5px;
 }
 .skill {
-  background-color: #f3ccf3;
+  background-color: #b3b3ef;
   color: white;
   margin-left: 11px;
   text-align: right;
@@ -53,64 +55,26 @@ h3 {
 #span2 {
   margin-left: 180px;
   margin-top: -7px;
-  color: #f3ccf3;
+  color: #b3b3ef;
   font-size: xxx-large;
   font-weight: 300;
-}
-div#first {
-  display: flex;
-  /* justify-content: space-around; */
-}
-div#second {
-  display: flex;
-  /* justify-content: space-around; */
-}
-p {
-  height: 40px;
-  width: 113px;
-  text-align: center;
-  padding: 10px;
-}
-p.daily {
-  background-color: #eff396;
-  border-radius: 25px;
-  margin-left: 20px;
-}
-p.weekly {
-  background-color: red;
-  border-radius: 25px;
-  margin-left: 15px;
-}
-p.monthly {
-  background-color: #65b741;
-  border-radius: 25px;
-  margin-left: 20px;
-}
-p.ocassional {
-  background-color: #f3ccf3;
-  border-radius: 25px;
-  margin-left: 15px;
-}
-.todo {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-h4 {
-  margin-left: 85px;
-  margin-top: 5px;
-  /* color: #f3ccf3; */
-}
-h5 {
-  color: #f3ccf3;
-  margin-left: 120px;
-  margin-top: -9px;
-  font-size: medium;
 }
 hr {
   width: 300px;
   margin-top: 20px;
+  color: #a8a8a8;
 }
-
+h4 {
+  margin-left: 20px;
+  margin-top: 15px;
+  color: #a8a8a8;
+}
+h5 {
+  color: #b3b3ef;
+  margin-left: 120px;
+  margin-top: -9px;
+  font-size: medium;
+}
 @media only screen and (max-width: 768px) {
   main {
     margin-left: 100px;

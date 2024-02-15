@@ -34,19 +34,25 @@
           add_circle
         </span>
       </div>
-      <div class="skill html"></div>
+      <div class="skill html" id="progressBar"></div>
       <h5>33% complete</h5>
-      <div class="todo">
-        <todo-list id="todoList"> </todo-list>
+      <div class="checked">
+        <todo-list id="todoList">Meditation</todo-list>
+        <todo-list id="todoList">Pickup Anna</todo-list>
+        <todo-list id="todoList">Setup Meeting with Jay</todo-list>
+        <todo-list id="todoList">Finish Daily Ui</todo-list>
+        <todo-list id="todoList">Second edits on article</todo-list>
+        <todo-list id="todoList">Email Chris</todo-list>
       </div>
       <hr />
-      <h4>Pulling from recurring lists</h4>
-      <recurring-lists></recurring-lists>
+      <h4>Pull from recurring lists</h4>
+      <button-comp color="#F5ED84">Daily</button-comp>
+      <button-comp color="#B5EA81">Weekly</button-comp>
+      <button-comp color="#F3A9A9">Monthly</button-comp>
+      <button-comp color="#B3B3EF">Occasional</button-comp>
     </main>
-
-    <script src="list-style.js"></script>
-    <script src="script.js"></script>
-    <script src="recurring-lists.js"></script>
-    <script src="todo-list-item.js"></script>
+    <script src="progressBar.js"></script>
+    <script src="todoList.js"></script>
+    <script src="button.js"></script>
   </body>
 </html>
